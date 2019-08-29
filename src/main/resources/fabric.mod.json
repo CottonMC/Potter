@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "potter",
+  "version": "$version",
+
+  "name": "Potter",
+  "icon": "assets/potter/icon.png",
+  "description": "Customized cave gen!",
+  "licence": "MIT",
+  "contact": {
+    "sources": "https://github.com/CottonMC/Potter"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.cottonmc.potter.Potter"
+    ]
+  },
+  "mixins": [
+    "mixins.potter.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}
